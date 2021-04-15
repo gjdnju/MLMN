@@ -21,14 +21,14 @@
 
   - hurt_corpus.json & traffic_corpus.json:
 
-    ```json
+    ```
     [
         {
             'file_name': 'the name of the original file',
             'paragraph': 'the extracted complete fact paragraph',
             'sentences': {
                 'fact1': [ids of labelled articles],
-                ……,
+                ...,
                 'factn': [ids of labelled articles]
             },
             'articles':[ids of articles cited by original document],
